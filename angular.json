@@ -121,8 +121,17 @@
               "devServerTarget": "smalltown-kudapattu:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/smalltown-kudapattu",
+            "netlifyToken": "",
+            "siteId": ""
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "smalltown-kudapattu"
 }
