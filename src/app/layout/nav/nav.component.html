@@ -3,13 +3,13 @@
   <div class="container">
     <a class="navbar-brand" [routerLink]="'.'">
       Kudapattu
-      <!--img src="http://placehold.it/150x50?text=Logo" alt=""-->
     </a>
-   
+    <span class="text-dark mt-3 small-town">Small Town</span>
+
     <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
       &#9776;
     </button>
-    
+
     <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
