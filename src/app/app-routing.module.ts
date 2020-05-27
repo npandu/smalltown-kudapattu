@@ -5,13 +5,15 @@ import { OurStoryComponent } from './views/our-story/our-story.component';
 
 
 const routes: Routes = [
-  { path: "", redirectTo: "/main", pathMatch: "full" },
-  { path: 'main', component: MainContentComponent },
+  //{ path: "", redirectTo: "/main", pathMatch: "full" },
+  { path: '', component: MainContentComponent },
   { path: 'story', component: OurStoryComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    initialNavigation: 'enabled'
+})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
