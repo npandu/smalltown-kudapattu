@@ -1,3 +1,8 @@
 <app-nav></app-nav>
   <router-outlet></router-outlet>
+  <ngb-toast *ngIf="showButton" header="Add to Home Screen" [autohide]="false"
+  (hide)="close()">Add <strong>kudapattu.com</strong> to your Home Screen 
+  <button class="btn btn-warning" (click)="addToHomeScreen()">Add</button>
+</ngb-toast>
+  
   <app-footer></app-footer>
