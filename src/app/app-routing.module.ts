@@ -5,7 +5,7 @@ import { OurStoryComponent } from './views/our-story/our-story.component';
 
 
 const routes: Routes = [
-  //{ path: "", redirectTo: "/main", pathMatch: "full" },
+  //{ path: "", redirectTo: "/home", pathMatch: "full" },
   { path: '', component: MainContentComponent },
   { path: 'story', component: OurStoryComponent }
 ];
