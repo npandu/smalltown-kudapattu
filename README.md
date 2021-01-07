@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4bf396e9-fd65-4cbf-9e6d-c264ea34981b/deploy-status)](https://app.netlify.com/sites/kudapattu/deploys)
 # SmalltownKudapattu
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
